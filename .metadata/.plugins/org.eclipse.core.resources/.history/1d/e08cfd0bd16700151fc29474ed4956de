@@ -1,0 +1,15 @@
+package com.ourownjava;
+
+import mockit.Tested;
+
+import org.junit.Test;
+
+public class TestSubClass {
+	
+	@Test
+	public void shouldInitSubClassAlone(){
+		
+		final SubClass subClass = new SubClass("Data")''
+		
+	}
+}

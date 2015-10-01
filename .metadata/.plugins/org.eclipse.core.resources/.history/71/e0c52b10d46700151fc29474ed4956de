@@ -1,0 +1,6 @@
+package com.ourownjava;
+
+public class SubClass extends SuperClass{
+
+	
+}

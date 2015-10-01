@@ -1,0 +1,8 @@
+package com.ourownjava;
+
+public class TestSubClass {
+	
+	private SubClass subClass;
+	
+
+}

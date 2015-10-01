@@ -1,0 +1,18 @@
+package com.ourownjava;
+
+import org.junit.Test;
+
+public class TestSubClass {
+	
+	private SubClass subClass;
+	
+	@Test
+	public void shouldGetData(){
+		
+		subClass = new SubClass("Data");
+		assertEquals("Data", subClass.getData());
+		
+	}
+	
+
+}

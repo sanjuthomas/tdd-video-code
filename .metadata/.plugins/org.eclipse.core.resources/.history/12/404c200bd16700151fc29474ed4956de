@@ -1,0 +1,16 @@
+package com.ourownjava;
+
+import mockit.Tested;
+
+import org.junit.Test;
+
+public class TestSubClass {
+	
+	@Tested
+	private SubClass subClass;
+	
+	@Test
+	public void shouldInitSubClassAlone(){
+		
+	}
+}

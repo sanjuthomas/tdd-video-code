@@ -1,0 +1,11 @@
+package com.ourownjava;
+
+public class SubClass extends SuperClass{
+	
+	private String data;
+	
+	public SubClass(String data){
+		this.data = data;
+	}
+
+}

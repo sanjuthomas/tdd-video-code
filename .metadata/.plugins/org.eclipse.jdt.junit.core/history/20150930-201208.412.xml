@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="Rerun com.ourownjava.TestSubClass" project="tdd-video" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="com.ourownjava.TestSubClass" time="0.0">
+    <testcase name="shouldInitSubClassAlone" classname="com.ourownjava.TestSubClass" time="0.0">
+      <error>java.lang.IllegalArgumentException: Don't call me
+	at com.ourownjava.SuperClass.&lt;init&gt;(SuperClass.java:6)
+	at com.ourownjava.SubClass.&lt;init&gt;(SubClass.java:8)
+	at com.ourownjava.TestSubClass.shouldInitSubClassAlone(TestSubClass.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:50)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)
+
+</error>
+    </testcase>
+  </testsuite>
+</testrun>
